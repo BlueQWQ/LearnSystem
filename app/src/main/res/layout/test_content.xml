@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gang.learnsystem.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:text="[单选题]"
+                android:textSize="18dp"
+                android:typeface="monospace"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <TextView
+                android:id="@+id/test_index"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="20dp"
+                android:text="0/0"
+                android:textSize="18dp"
+                android:typeface="monospace"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/TV_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="hello"
+            android:textSize="26sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:text="示例１"
+                android:textSize="20sp" />
+
+            <include
+                layout="@layout/item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:text="示例２"
+                android:textSize="20sp" />
+
+            <include
+                layout="@layout/item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:text="示例３"
+                android:textSize="20sp" />
+
+            <include
+                layout="@layout/item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:text="示例４"
+                android:textSize="20sp" />
+
+            <include
+                layout="@layout/item_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
