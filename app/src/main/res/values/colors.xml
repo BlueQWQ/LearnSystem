@@ -58,7 +58,7 @@
     <color name="text_light_grey">#c8c2b9</color>
     <color name="text_dark_grey">#908879</color>
     <color name="text_deep_grey">#7c8184</color>
-    <color name="text_blue">#279aec</color>
+    <color name="text_blue">#71b4e2</color>
     <color name="text_dark_blue">#4585bc</color>
     <color name="text_light_blue">#00a2ff</color>
     <color name="text_shallow_blue">#6eb0e5</color>
@@ -198,7 +198,7 @@
 
     <color name="float_transparent">#66000000</color>
     <color name="sweet_dialog_bg_color">#FFFFFF</color>
-    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_text_color">#d1daef</color>
     <color name="gray_btn_bg_color">#D0D0D0</color>
     <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
     <color name="blue_btn_bg_color">#AEDEF4</color>

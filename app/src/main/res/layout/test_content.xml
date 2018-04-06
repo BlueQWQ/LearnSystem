@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.gang.learnsystem.MainActivity">
+    tools:context="com.example.lanfe.cb_learnsystem.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="60dp">
 
-            <TextView
+            <Spinner
+                android:id="@+id/q_category"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_alignParentLeft="true"
@@ -25,8 +26,6 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
-                android:text="[单选题]"
-                android:textSize="18dp"
                 android:typeface="monospace"
                 tools:layout_editor_absoluteX="127dp"
                 tools:layout_editor_absoluteY="0dp" />
@@ -68,56 +67,80 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
-            <CheckBox
+            <Button
                 android:id="@+id/checkbox_1"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
+                android:layout_margin="5dip"
+                android:background="@drawable/btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:text="示例１"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
 
             <include
                 layout="@layout/item_divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
-            <CheckBox
+            <Button
                 android:id="@+id/checkbox_2"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
-                android:text="示例２"
-                android:textSize="20sp" />
+                android:layout_margin="5dip"
+                android:background="@drawable/btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:text="示例2"
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
 
             <include
                 layout="@layout/item_divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
-            <CheckBox
+            <Button
                 android:id="@+id/checkbox_3"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
-                android:text="示例３"
-                android:textSize="20sp" />
+                android:layout_margin="5dip"
+                android:background="@drawable/btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:text="示例3"
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
 
             <include
                 layout="@layout/item_divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp" />
 
-            <CheckBox
+            <Button
                 android:id="@+id/checkbox_4"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginStart="20dp"
-                android:text="示例４"
-                android:textSize="20sp" />
+                android:layout_margin="5dip"
+                android:background="@drawable/btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
+                android:text="示例4"
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
 
             <include
                 layout="@layout/item_divider"

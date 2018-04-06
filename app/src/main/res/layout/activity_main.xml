@@ -39,7 +39,7 @@
             <android.support.v4.app.FragmentTabHost
                 android:id="@+id/fragment"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"></android.support.v4.app.FragmentTabHost>
+                android:layout_height="match_parent" />
         </android.support.constraint.ConstraintLayout>
     </android.support.design.widget.CoordinatorLayout>
 
